@@ -13,7 +13,7 @@ To edit the fonts for this localization tool:
    (B) Add fallback fonts for a few missing characters by adding new @font-face entries and
        editing the .font- styles to include extra font-family values:
        @font-face { font-family: 'fallback-tiny'; src: url('http:/my-server/fonts/my-tiny-fallback.ttf'); }
-       .font-tiny { font-family: 'tiny', 'fallback-tiny'; font-size: 10px; line-height: 10px; }
+       .font-tiny { font-family: 'tiny', 'fallback-tiny'; font-size: 8px; line-height: 8px; }
 
 4. Edit the "Font Stylesheet Override" value in the localization to point to the full 
    path of your hosted stylesheet.
@@ -36,40 +36,40 @@ Fonts here are used by both the loc tool and the game.
 */
 
 /*---- tiny -------------------------------------------------*/
-@font-face { font-family: 'tiny'; src: url('../fonts/MiniKylie-U--misaki_gothic.ttf'); }
-.font-tiny { font-family: 'tiny'; font-size: 10px; line-height: 10px; }
+@font-face { font-family: 'tiny'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/PFStardust.woff') format('woff'); }
+.font-tiny { font-family: 'tiny'; font-size: 8px; line-height: 8px; }
 
 /*---- small -------------------------------------------------*/
-@font-face { font-family: 'small_tight'; src: url('../fonts/AtariSmall-U--misaki_gothic--88Zen.ttf'); }
-.font-small_tight { font-family: 'small_tight'; font-size: 10px; line-height: 10px; }
+@font-face { font-family: 'small_tight'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/PFStardust.woff') format('woff'); }
+.font-small_tight { font-family: 'small_tight'; font-size: 8px; line-height: 8px; }
 
-@font-face { font-family: 'small_harsh'; src: url('../fonts/5mikropix--misaki_gothic.ttf'); }
-.font-small_harsh { font-family: 'small_harsh'; font-size: 10px; line-height: 9px; }
+@font-face { font-family: 'small_harsh'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/PFStardust.woff') format('woff'); }
+.font-small_harsh { font-family: 'small_harsh'; font-size: 8px; line-height: 9px; }
 
 /*---- regular -------------------------------------------------*/
-@font-face { font-family: 'regular'; src: url('../fonts/BMmini-U--88Zen--misaki_gothic.ttf'); }
-.font-regular, body { font-family: 'regular'; font-size: 10px; line-height: 10px; }
+@font-face { font-family: 'regular'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/PFStardust.woff') format('woff');; }
+.font-regular, body { font-family: 'regular'; font-size: 8px; line-height: 8px; }
 
-@font-face { font-family: 'regular_short'; src: url('../fonts/04B03-U--misaki_gothic.ttf'); }
-.font-regular_short { font-family: 'regular_short'; font-size: 10px; line-height: 10px; }
+@font-face { font-family: 'regular_short'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/PFStardust.woff') format('woff');; }
+.font-regular_short { font-family: 'regular_short'; font-size: 8px; line-height: 8px; }
 
 /*---- title -------------------------------------------------*/
-@font-face { font-family: 'title_tall'; src: url('../fonts/pixelplay--shnmk14.ttf'); }
+@font-face { font-family: 'title_tall'; src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/PFStardust.woff') format('woff'); }
 .font-title_tall { font-family: 'title_tall'; font-size: 16px; line-height: 16px; }
 
-@font-face { font-family: 'title_news'; src: url('../fonts/MotorolaScreentype-U--shnmk16b.ttf'); } 
+@font-face { font-family: 'title_news'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/PFStardust.woff') format('woff'); } 
 .font-title_news { font-family: 'title_news'; font-size: 16px; line-height: 16px; }
 
-@font-face { font-family: 'title_thick'; src: url('../fonts/ChixaDemiBold--shnmk12b.ttf'); }
+@font-face { font-family: 'title_thick'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/PFStardust.woff') format('woff'); }
 .font-title_thick { font-family: 'title_thick'; font-size: 14px; line-height: 11px; }
 
 /*---- ui -------------------------------------------------*/
-@font-face { font-family: 'ui_regular'; src: url('../fonts/NotNokia-U--knj10b.ttf'); }
-.font-ui_regular { font-family: 'ui_regular'; font-size: 10px; line-height: 10px; }
+@font-face { font-family: 'ui_regular'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/PFStardust.woff') format('woff'); }
+.font-ui_regular { font-family: 'ui_regular'; font-size: 8px; line-height: 8px; }
 
 /*---- large -------------------------------------------------*/
-@font-face { font-family: 'large'; src: url('../fonts/Resource-U--knj10.ttf'); }
-.font-large { font-family: 'large'; font-size: 10px; line-height: 10px; }
+@font-face { font-family: 'large'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/PFStardust.woff') format('woff'); }
+.font-large { font-family: 'large'; font-size: 8px; line-height: 10px; }
 
 /* 
 ----------------------------------------------------------------------------------
@@ -81,7 +81,7 @@ Fonts below here are used only by the loc tool and don't appear in the game.
 
 /*---- small -------------------------------------------------*/
 @font-face { font-family: 'small'; src: url('../fonts/53Veda-U--misaki_gothic.ttf'); }
-.font-small { font-family: 'small'; font-size: 10px; line-height: 10px;}
+.font-small { font-family: 'small'; font-size: 8px; line-height: 8px;}
 
 /*---- generic serif -------------------------------------------------*/
 @font-face { font-family: 'title_serif'; src: url('../fonts/TNR-Bold.ttf'); } 
@@ -89,7 +89,7 @@ Fonts below here are used only by the loc tool and don't appear in the game.
 
 /*---- cursive -------------------------------------------------*/
 @font-face { font-family: 'cursive'; src: url('../fonts/Bangalor-U--elisat10.ttf'); }
-.font-cursive { font-family: 'cursive'; font-size: 10px; line-height: 10px; }
+.font-cursive { font-family: 'cursive'; font-size: 8px; line-height: 8px; }
 
 /*---- scribble -------------------------------------------------*/
 @font-face { /* Sam Derrick */ font-family: 'scribble'; src: url('../fonts/sd_auto_pilot--BetinaScriptExtraCTT--nagurip.ttf'); }
